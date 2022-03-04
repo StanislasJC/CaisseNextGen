@@ -1,0 +1,21 @@
+## Arborescence du projet
+
+.Caisse
+./
+./----------/ src
+./          /---------- models
+./          /           / product.js
+./          /
+./          /---------- controllers
+./          /           / product.js
+./          /
+./          /---------- views
+./          /           / ?
+./          /
+./          /---------- main.js
+./          /---------- render.js
+./          /---------- package.json
+./          /---------- index.html
+./
+./----------/ utilitaires
+./          / database.js

@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Caisse Next Generation",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Aymeric, Corentin, Mohamed, Stanislas",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.1.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
+  }
+}
