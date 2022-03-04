@@ -1,7 +1,7 @@
 const {Sequelize, DataTypes} = require('sequelize');
-const { sequelize } = require('./../utilities/database');
-const Agent = require("../controller/product");
+const { sequelize } = require('./../../utilities/database');
 
+//Définition du modèle Produit
 const Product = sequelize.define('Product',
     {
         IdProduct: {
