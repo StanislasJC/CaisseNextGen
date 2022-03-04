@@ -1,6 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 
-var db = require("./utilities/database");
+var db = require("./../utilities/database");
 
 const createWindow = () => {
     const win = new BrowserWindow({
