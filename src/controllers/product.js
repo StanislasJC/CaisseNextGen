@@ -1,15 +1,13 @@
 // Charger les packages
-//const { findByPk } = require("../models/agent");
-var Agent = require("../models/product");
+var Product = require("./../models/product");
 //var sequelize = require("../utilitaire/database").sequelize;
 const { QueryTypes } = require('sequelize');
 
 
-// Création d'un point de terminaison GET /api/agents
-// Lister les agents
+/* REQUETE GET : ALL PRODUCT */
 exports.getAllProduct = function(req, res){
     try{
-        console.log('Connecté à la base de données MySQL!');
+        console.log('Récupération de la table product !');
         Product.findAll().then((results, err) => {
             if(err){
                 console.error("Erreur lecture", 1);
